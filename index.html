@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RYTHMIX MUSIC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="header" id="home">
+        <header class="header-box">
+            <img src="images/logo2.png" alt="SOUNDORA MUSIC Logo" class="rounded-circle img-fluid logo">
+            <h1 class="sound">RYTHMIX<br>MUSIC</h1>
+        </header>
+    </section>
+
+    <div class="menu-container">
+        <button class="dot-btn" onclick="toggleMenu()">⋮</button>
+        <div id="menu" class="menu">
+            <a href="index.html">🏠 Home</a>
+            <a href="#songs">🎵 Songs</a>
+            <a href="#playlist">🎧 Playlist</a>
+            <a href="contact.html">📳 Contact</a>
+            <a href="privacy_policy.html">🧾 Privacy Policy</a>
+            <a href="about_us.html">about us</a>
+        </div>
+    </div>
+
+    <section class="hero text-center my-4">
+        <h2>Welcome to Music World</h2>
+        <p>Listen to your favorite songs anytime.</p>
+    </section>
+
+    <div id="musicCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="m1.jpg" class="d-block w-100" alt="Music Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="m2.jpg" class="d-block w-100" alt="Music Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="m3.jpg" class="d-block w-100" alt="Music Banner 3">
+            </div>
+        </div>
+    </div>
+
+    <section id="songs">
+        <h2 class="section-title">Featured Songs</h2>
+        <div class="carousel1 d-flex flex-wrap justify-content-center gap-3">
+            
+            <div class="card text-center" style="width: 15rem;">
+                <img src="https://picsum.photos/300/300?1" class="card-img-top" alt="Night Beats">
+                <div class="card-body">
+                    <h3 class="card-title h5">Night Beats</h3>
+                    <p class="card-text">Pop Music</p>
+                </div>
+            </div>
+
+            <div class="card text-center" style="width: 15rem;">
+                <img src="https://picsum.photos/300/300?2" class="card-img-top" alt="Summer Vibes">
+                <div class="card-body">
+                    <h3 class="card-title h5">Summer Vibes</h3>
+                    <p class="card-text">Electronic</p>
+                </div>
+            </div>
+
+            <div class="card text-center" style="width: 15rem;">
+                <img src="https://picsum.photos/300/300?3" class="card-img-top" alt="Chill Zone">
+                <div class="card-body">
+                    <h3 class="card-title h5">Chill Zone</h3>
+                    <p class="card-text">Lo-Fi</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="playlist" class="container mt-5 mb-5">
+        <h2 class="section-title">🎧 Top Tracks</h2>
+
+        <div class="list-group shadow-sm">
+            <div class="list-group-item d-flex justify-content-between align-items-center music-item">
+                <div>
+                    <h5 class="mb-0 fw-bold text-dark">Night Beats</h5>
+                    <small class="text-muted">Pop Music</small>
+                </div>
+                <audio controls class="custom-audio">
+                    <source src="song/song1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center music-item">
+                <div>
+                    <h5 class="mb-0 fw-bold text-dark">Summer Vibes</h5>
+                    <small class="text-muted">Electronic</small>
+                </div>
+                <audio controls class="custom-audio">
+                    <source src="song/song2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="list-group-item d-flex justify-content-between align-items-center music-item">
+                <div>
+                    <h5 class="mb-0 fw-bold text-dark">Chill Zone</h5>
+                    <small class="text-muted">Lo-Fi</small>
+                </div>
+                <audio controls class="custom-audio">
+                    <source src="song/song3.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </section>
+       
+    <div class="container">
+    <div class="contact-box">
+
+        <h2>Contact Us</h2>
+
+        <form class="form1">
+
+            <div class="mb-3">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+
+            <div class="mb-3">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+
+            <div class="mb-3">
+                <label>Message</label>
+                <textarea class="form-control" rows="5" placeholder="Write your message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success" id="btn1">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+</div>
+     
+    <footer id="contact">
+        <h2 class="footer-title"><u>CONTACT</u></h2>
+
+        <div class="contact-info-box">
+            <p><strong>📍 Address:</strong><br>
+            B2, Shree Siddhivinayak Plaza,<br>
+            Off New Link Road,<br>
+            Veera Desai Industrial Estate,<br>
+            Andheri West, Mumbai - 400053</p>
+
+            <p><strong>📞 Phone:</strong> +91 9306486148</p>
+            <p><strong>✉️ Email:</strong> top@soundoramusic.com</p>
+            <p><strong>🕒 Timings:</strong> 10:00 AM – 11:00 PM</p>
+
+            <iframe
+                src="https://maps.google.com/maps?q=Veera%20Desai%20Industrial%20Estate,%20Andheri%20West,%20Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                class="map-frame" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+
+
+        <p class="copyright">
+            © 2026 SOUNDORA MUSIC. All Rights Reserved.<br>
+            Follow the page for new songs and update.<br>
+            Owner: Gurdeep Singh
+        </p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
