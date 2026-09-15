@@ -1,4 +1,5 @@
-<b>🎵 RYTHMIX MUSIC</b>
+<h1><b>🎵 RYTHMIX MUSIC</b></h1>
+
 
 «Feel the Rhythm. Live the Music.»
 
