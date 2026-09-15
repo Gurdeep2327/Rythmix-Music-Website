@@ -1,4 +1,4 @@
-#🎵 RYTHMIX MUSIC
+<b>🎵 RYTHMIX MUSIC</b>
 
 «Feel the Rhythm. Live the Music.»
 
